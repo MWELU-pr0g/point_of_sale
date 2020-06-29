@@ -103,7 +103,7 @@ class SiteController extends Controller
         // print_r($model);
         // exit; 
         // $model->password = '';
-        return $this->render('index', [
+        return $this->render('login', [
             'model' => $model,
         ]);
     }
